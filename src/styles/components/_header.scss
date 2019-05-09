@@ -1,0 +1,107 @@
+.header {
+  background-color: #0275d8;
+  background-image: linear-gradient(45deg, #1270e3 0%, #59c2ff 100%);
+  color: white;
+  padding: 35px 0;
+  margin-bottom: 7px;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  position: relative;
+  z-index: 10;
+  background-size: cover;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+  /* Rectangle Copy 3: */
+  background-position: 50%;
+
+  h1 {
+    font-size: 2.2em;
+    font-weight: 200;
+  }
+  h2,
+  h3 {
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+}
+
+.header__form {
+  position: relative;
+  input {
+    width: 100%;
+    padding: 20px 59px 21px 17px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+    transition: background .4s, box-shadow .2s;
+    &:hover {
+      background: rgba(255, 255, 255, 0.27);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03);
+    }
+    &:active,
+    &:focus {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+      background: white;
+      color: #3a3c4c;
+    }
+    &::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: inherit;
+    }
+    &::-moz-placeholder {
+      /* Firefox 19+ */
+      color: inherit;
+    }
+    &:-ms-input-placeholder {
+      /* IE 10+ */
+      color: inherit;
+    }
+    &:-moz-placeholder {
+      /* Firefox 18- */
+      color: inherit;
+    }
+  }
+  button {
+    width: 22px;
+    height: 22px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    right: 19px;
+    margin-top: -10px;
+    outline: none;
+    cursor: pointer;
+    transition: transform .1s linear;
+    &:before {
+      content: ' ';
+      border: 2px solid white;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 16px;
+      height: 16px;
+    }
+    &:after {
+      content: ' ';
+      border-top: 2px solid white;
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      width: 12px;
+      height: 1px;
+      transition: width .1s linear;
+      transform-origin: 100% 50%;
+      transform: rotate(-135deg);
+    }
+  }
+}

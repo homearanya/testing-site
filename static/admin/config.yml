@@ -1,0 +1,22 @@
+backend:
+  name: bitbucket
+  repo: vuukleteam/help-center # Path to your Bitbucket repository
+  branch: netlifyCMS
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: articles
+    label: Articles
+    label_singular: Article
+    folder: 'content'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Published Date', name: 'date', widget: 'date', dateFormat: 'YYYY-MM-DD' }
+      - { label: 'Category', name: 'category', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
+      - { label: 'Path', name: 'path', widget: 'string' }
+      - { label: 'Short Description', name: 'shortDescription', widget: 'text' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

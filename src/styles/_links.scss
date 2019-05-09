@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  a {
+    color: #193652;
+    text-decoration: none;
+    &:hover {
+      color: #475e72;
+    }
+  }
+}
+
+.readmore-link {
+  text-decoration: none !important;
+  position: relative;
+  &:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #046fd1;
+    /* transition: all .3s; */
+  }
+  &:hover:after {
+    width: 100%;
+  }
+  .readmore-link__icon {
+    margin-left: 4px;
+  }
+}

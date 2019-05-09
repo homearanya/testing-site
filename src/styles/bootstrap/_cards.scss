@@ -1,0 +1,20 @@
+.card {
+  box-shadow: inset 0 0 0 1px #dae4ed, 0 5px 15px -5px rgba(0, 0, 0, .1);
+  border: none;
+  .card-block {
+    padding: 2em;
+  }
+}
+
+@media (max-width: map-get($grid-breakpoints, sm)) {
+  .card .card-block {
+    padding: 2em 1em;
+  }
+}
+@media (min-width: map-get($grid-breakpoints, sm)) {
+  .article-card {
+    .card-block {
+      padding: 4em;
+    }
+  }
+}

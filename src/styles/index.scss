@@ -1,0 +1,85 @@
+html {
+  font-size: 17px;
+}
+
+$brand-primary: #046fd1;
+$body-bg: #fafbfc;
+$body-color: #3d556b;
+$font-family-sans-serif: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default;
+// Navbar
+$navbar-light-color: rgba(95, 108, 122, 0.5);
+$navbar-light-hover-color: $brand-primary;
+// Breadcrumb
+$breadcrumb-bg: transparent;
+
+// $brand-primary: #7e61ea;
+// Core variables and mixins
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+
+// Reset and dependencies
+@import '../../node_modules/bootstrap/scss/reboot';
+@import '../../node_modules/bootstrap/scss/print';
+// Core CSS
+@import '../../node_modules/bootstrap/scss/reboot';
+@import '../../node_modules/bootstrap/scss/type';
+@import '../../node_modules/bootstrap/scss/images';
+@import '../../node_modules/bootstrap/scss/code';
+@import '../../node_modules/bootstrap/scss/grid';
+// Components
+@import '../../node_modules/bootstrap/scss/card';
+@import '../../node_modules/bootstrap/scss/nav';
+@import '../../node_modules/bootstrap/scss/navbar';
+@import '../../node_modules/bootstrap/scss/utilities';
+@import '../../node_modules/bootstrap/scss/transitions';
+@import '../../node_modules/bootstrap/scss/breadcrumb';
+@import '../../node_modules/bootstrap/scss/badge';
+@import './bootstrap/cards';
+@import './bootstrap/navbar';
+@import './bootstrap/breadcrumb';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/tag';
+@import 'components/post';
+@import 'components/accordion';
+@import 'contact-details';
+@import 'links';
+@import 'tables';
+@import 'not-found';
+@import './prism/index';
+
+// [GATSBY] changes/fixes
+pre[class*='language-'] {
+  margin-bottom: 20px;
+}
+
+.gatsby-resp-image-wrapper {
+  z-index: 0 !important;
+}
+
+.content-container {
+  margin-top: 20px;
+}
+
+.categories-list-image-wrapper {
+  margin-bottom: 10px;
+  img {
+    max-width: 30px;
+    width: 100%;
+  }
+  @media (min-width: 576px) {
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: map-get($grid-breakpoints, sm)) {
+  .categories-list-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 60px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.footer {
+  text-align: center;
+  padding: 30px 0 50px;
+  background: #f5f5f5;
+  font-size: .8em;
+  nav > a:not(:last-child) {
+    margin-right: 10px;
+  }
+  nav {
+    margin-right: 15px;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+@media (min-width: map-get($grid-breakpoints, sm)) {
+  .footer {
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+  }
+}

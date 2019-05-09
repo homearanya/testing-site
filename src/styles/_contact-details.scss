@@ -1,0 +1,40 @@
+.contact-card {
+  transition: all .2s;
+  color: inherit;
+  text-decoration: none !important;
+  &:hover {
+    transform: translateY(-2px);
+    color: $brand-primary;
+  }
+}
+
+.contact-card .contact-card_item-description {
+  margin-left: 15px;
+}
+
+.contact-card .contact-card_item-description span {
+  display: block;
+  &:last-child {
+    font-size: 1.1rem;
+  }
+}
+
+.contact-card .contact-card__item-icon {
+  img {
+    max-width: 50px;
+  }
+}
+
+@media (min-width: map-get($grid-breakpoints, sm)) {
+  .contact-card .contact-card_item-description span {
+    display: block;
+    &:last-child {
+      font-size: 1.2rem;
+    }
+  }
+  .contact-card .contact-card__item-icon {
+    img {
+      max-width: 65px;
+    }
+  }
+}
