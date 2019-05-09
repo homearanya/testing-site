@@ -35,7 +35,7 @@ module.exports = {
     },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
     // "gatsby-plugin-remove-serviceworker",
     `gatsby-plugin-layout`,
     'gatsby-plugin-react-helmet',

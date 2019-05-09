@@ -1,7 +1,7 @@
 backend:
-  name: bitbucket
-  repo: vuukleteam/help-center # Path to your Bitbucket repository
-  branch: netlifyCMS
+  name: github
+  repo: homearanya/testing-site # Path to your Bitbucket repository
+  branch: master
 
 media_folder: static/img
 public_folder: /img
