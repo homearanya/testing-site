@@ -2,19 +2,21 @@ const Promise = require('bluebird'); // eslint-disable-line
 const path = require('path');
 const fs = require('fs');
 const slug = require('slug');
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 
 const categoriesInfo = require('./src/categories.json');
 
 let searchArticles = [];
 
 exports.onCreateNode = ({ node, actions }) => {
+  // fmImagesToRelative(node); // convert image paths for gatsby images
   const { createNodeField } = actions;
   let categoryPath = '';
   let tagsWithPaths = [];
 
   if (node.internal.type === 'MarkdownRemark') {
     if (Object.prototype.hasOwnProperty.call(node, 'frontmatter') && Object.prototype.hasOwnProperty.call(node.frontmatter, 'category')) {
-      categoryPath = slug(node.frontmatter.category);
+      categoryPath = slug(node.frontmatter.category).toLowerCase();
     }
     if (Object.prototype.hasOwnProperty.call(node, 'frontmatter') && Object.prototype.hasOwnProperty.call(node.frontmatter, 'tags')) {
       tagsWithPaths = node.frontmatter.tags.map(item => ({
@@ -76,7 +78,6 @@ exports.createPages = ({ graphql, actions }) => {
           if (err) return console.log('Creating searchData.js error: ', err);
           return console.log('searchData.js creating successful');
         });
-
         result.data.allMarkdownRemark.edges.forEach(edge => {
           const id = edge.node.id;
           if (edge.node.frontmatter.category) {
