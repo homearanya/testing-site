@@ -22,7 +22,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          `gatsby-plugin-netlify-cms-paths`,
+          // `gatsby-plugin-netlify-cms-paths`,
           {
             resolve: 'gatsby-remark-images',
             options: {
