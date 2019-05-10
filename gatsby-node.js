@@ -2,14 +2,11 @@ const Promise = require('bluebird'); // eslint-disable-line
 const path = require('path');
 const fs = require('fs');
 const slug = require('slug');
-const { fmImagesToRelative } = require('gatsby-remark-relative-images');
-
 const categoriesInfo = require('./src/categories.json');
 
 let searchArticles = [];
 
 exports.onCreateNode = ({ node, actions }) => {
-  // fmImagesToRelative(node); // convert image paths for gatsby images
   const { createNodeField } = actions;
   let categoryPath = '';
   let tagsWithPaths = [];
@@ -88,7 +85,6 @@ exports.createPages = ({ graphql, actions }) => {
             // more here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
             edge.node.frontmatter.tags.forEach(tag => tagsSet.add(tag));
           }
-
           createPage({
             path: edge.node.frontmatter.path,
             component: postPage,
