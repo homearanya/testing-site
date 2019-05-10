@@ -22,7 +22,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          // `gatsby-plugin-netlify-cms-paths`,
+          `gatsby-plugin-netlify-cms-paths`,
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -35,12 +35,7 @@ module.exports = {
               wrapperStyle: 'margin-bottom: 1.0725rem',
             },
           },
-          {
-            resolve: 'gatsby-remark-copy-linked-files',
-            options: {
-              destinationDir: 'img',
-            },
-          },
+          'gatsby-remark-copy-linked-files',
           'gatsby-remark-prismjs',
           'gatsby-remark-smartypants',
         ],
