@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 const Footer = () => {
   const companyYears = `2012-${new Date().getFullYear()}`;
@@ -6,12 +7,12 @@ const Footer = () => {
   return (
     <footer className="footer">
       <nav>
-        <a href="https://docs.vuukle.com/privacy-and-policy/" target="_blank" title="Privacy policy, link opens in a new window">
+        <Link to="/privacy-and-policy/">
           Privacy
-        </a>
-        <a href="https://docs.vuukle.com/privacy-and-policy/" target="_blank" title="Site terms of service, link opens in a new window">
+        </Link>
+        <Link to="/privacy-and-policy/">
           Terms of service
-        </a>
+        </Link>
         <a href="mailto:support@vuukle.com">Support</a>
       </nav>
       <p>
