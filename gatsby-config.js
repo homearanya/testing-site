@@ -53,7 +53,7 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
     // "gatsby-plugin-remove-serviceworker",
     `gatsby-plugin-layout`,
     'gatsby-plugin-react-helmet',
