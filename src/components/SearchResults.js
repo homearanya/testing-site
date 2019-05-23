@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
+import { slugify } from '../utils/slugify';
+
 import ReadMoreLink from './ReadMoreLink';
 
 // Articles List
@@ -77,7 +79,7 @@ class SearchResults extends React.Component {
               <p>{item.shortDescription}</p>
               <div style={{ marginBottom: '20px' }}>
                 {item.tags.map(tag => (
-                  <Link className="article-tag" key={tag} to={`/tags/${tag}`}>
+                  <Link className="article-tag" key={tag} to={`/tags/${slugify(tag)}/`} onClick={clearSearch}>
                     {tag}
                   </Link>
                 ))}

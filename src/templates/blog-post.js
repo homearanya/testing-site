@@ -4,10 +4,36 @@ import Helmet from 'react-helmet';
 import get from 'lodash/get';
 import { Link } from 'gatsby';
 import { graphql } from 'gatsby';
+import { slugify } from '../utils/slugify';
+
 import Breadcrumbs from '../components/Breadcrumbs';
 import articleUpdateTime from '../utils/articleUpdateTime';
+import Content, { HTMLContent } from '../components/Content';
 
-class BlogPostTemplate extends React.PureComponent {
+export const BlogPostTemplate = ({ content, contentComponent, tags, title, lastUpdate }) => {
+  const PostContent = contentComponent || Content;
+  return (
+    <div className="card article-card post">
+      <div className="card-block">
+        <div style={{ textAlign: 'center' }}>
+          <h1 style={{ fontWeight: 'bold' }}>{title}</h1>
+          <span style={{ display: 'block', marginBottom: '10px' }}>
+            {tags.map(tag => (
+              <Link className="article-tag" to={`/tags/${slugify(tag)}/`} key={tag}>
+                {tag}
+              </Link>
+            ))}
+          </span>
+          <p style={{ color: '#8fa1b3' }}>{lastUpdate}</p>
+        </div>
+        {/* <span>category: <Link to={`/categories/${post.frontmatter.category}`}>{post.frontmatter.category}</Link></span> */}
+        <PostContent content={content} />
+      </div>
+    </div>
+  );
+};
+
+class BlogPostPageTemplate extends React.PureComponent {
   render() {
     const { data } = this.props;
     const post = data.markdownRemark;
@@ -32,47 +58,37 @@ class BlogPostTemplate extends React.PureComponent {
           breadcrumbs={[
             {
               name: `${post.frontmatter.category}`,
-              link: `/categories/${post.fields.categoryPath}/`,
+              link: `/categories/${slugify(post.frontmatter.category)}/`,
             },
             { name: `${post.frontmatter.title}`, link: '#' },
           ]}
         />
-        <div className="card article-card post">
-          <div className="card-block">
-            <div style={{ textAlign: 'center' }}>
-              <h1 style={{ fontWeight: 'bold' }}>{post.frontmatter.title}</h1>
-              <span style={{ display: 'block', marginBottom: '10px' }}>
-                {post.fields.tagsWithPaths.map(item => (
-                  <Link className="article-tag" to={`/tags/${item.path}/`} key={item.name}>
-                    {item.name}
-                  </Link>
-                ))}
-              </span>
-              <p style={{ color: '#8fa1b3' }}>{lastUpdate}</p>
-            </div>
-            {/* <span>category: <Link to={`/categories/${post.frontmatter.category}`}>{post.frontmatter.category}</Link></span> */}
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          </div>
-        </div>
+        <BlogPostTemplate
+          content={post.html}
+          contentComponent={HTMLContent}
+          tags={post.frontmatter.tags}
+          title={post.frontmatter.title}
+          lastUpdate={lastUpdate}
+        />
       </div>
     );
   }
 }
 
-BlogPostTemplate.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.shape({
-        tags: PropTypes.arrayOf(PropTypes.string),
-        category: PropTypes.string,
-        title: PropTypes.string,
-        date: PropTypes.string,
-      }),
-    }),
-  }).isRequired,
-};
+// BlogPostPageTemplate.propTypes = {
+//   data: PropTypes.shape({
+//     markdownRemark: PropTypes.shape({
+//       frontmatter: PropTypes.shape({
+//         tags: PropTypes.arrayOf(PropTypes.string),
+//         category: PropTypes.string,
+//         title: PropTypes.string,
+//         date: PropTypes.string,
+//       }),
+//     }),
+//   }).isRequired,
+// };
 
-export default BlogPostTemplate;
+export default BlogPostPageTemplate;
 
 // TODO: get category path
 export const pageQuery = graphql`
@@ -86,13 +102,6 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
-      fields {
-        categoryPath
-        tagsWithPaths {
-          name
-          path
-        }
-      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
@@ -103,3 +112,31 @@ export const pageQuery = graphql`
     }
   }
 `;
+// export const pageQuery = graphql`
+//   query($id: String!) {
+//     site {
+//       siteMetadata {
+//         title
+//         author
+//       }
+//     }
+//     markdownRemark(id: { eq: $id }) {
+//       id
+//       html
+//       fields {
+//         categoryPath
+//         tagsWithPaths {
+//           name
+//           path
+//         }
+//       }
+//       frontmatter {
+//         title
+//         date(formatString: "MMMM DD, YYYY")
+//         category
+//         tags
+//         shortDescription
+//       }
+//     }
+//   }
+// `;

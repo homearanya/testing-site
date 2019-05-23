@@ -1,51 +1,40 @@
+const _ = require('lodash');
 const Promise = require('bluebird'); // eslint-disable-line
 const path = require('path');
 const fs = require('fs');
 const slug = require('slug');
-const categoriesInfo = require('./src/categories.json');
+const { createFilePath } = require('gatsby-source-filesystem'); // to check relative path
+const { fmImagesToRelative } = require('gatsby-remark-relative-images'); // frontmatter netlify cms image paths
 
-let searchArticles = [];
 
-exports.onCreateNode = ({ node, actions }) => {
+exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
-  let categoryPath = '';
-  let tagsWithPaths = [];
+  fmImagesToRelative(node); // convert image paths for gatsby images
 
-  if (node.internal.type === 'MarkdownRemark') {
-    if (Object.prototype.hasOwnProperty.call(node, 'frontmatter') && Object.prototype.hasOwnProperty.call(node.frontmatter, 'category')) {
-      categoryPath = slug(node.frontmatter.category).toLowerCase();
-    }
-    if (Object.prototype.hasOwnProperty.call(node, 'frontmatter') && Object.prototype.hasOwnProperty.call(node.frontmatter, 'tags')) {
-      tagsWithPaths = node.frontmatter.tags.map(item => ({
-        name: item,
-        path: slug(item),
-      }));
-    }
+  if (node.internal.type === `MarkdownRemark`) {
+    let value = createFilePath({ node, getNode });
+    value = value.replace('/articles/', '/');
+    createNodeField({
+      name: `slug`,
+      node,
+      value,
+    });
   }
-
-  createNodeField({ node, name: 'categoryPath', value: categoryPath });
-  createNodeField({ node, name: 'tagsWithPaths', value: tagsWithPaths });
 };
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   // [START] NEW Articles Promise
   return new Promise((resolve, reject) => {
-    // Post Template
-    const postPage = path.resolve('./src/templates/blog-post.js');
-    // Category Template
-    const categyPage = path.resolve('./src/templates/category.js');
-    // Tag Template
-    const tagPage = path.resolve('./src/templates/tag.js');
-    // Categories List Template
-    const categoriesListPage = path.resolve('./src/templates/categories-list.js');
-
     resolve(
       graphql(`
         {
-          allMarkdownRemark {
+          articlesQuery: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/src/content/articles/" } }) {
             edges {
               node {
+                fields {
+                  slug
+                }
                 id
                 html
                 frontmatter {
@@ -58,6 +47,18 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
           }
+          categoriesQuery: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/src/content/categories/" } }) {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+                frontmatter {
+                  title
+                }
+              }
+            }
+          }
         }
       `).then(result => {
         if (result.errors) {
@@ -66,79 +67,70 @@ exports.createPages = ({ graphql, actions }) => {
           reject(result.errors);
         }
 
-        // No errors -> go thought posts
-        const categorySet = new Set();
-        const tagsSet = new Set();
-        // Add articles for search
-        searchArticles = result.data.allMarkdownRemark.edges;
-        fs.writeFile('./static/search-data.json', JSON.stringify(searchArticles), err => {
+        // No errors -> go thought articles and categories
+        const { edges: articles } = result.data.articlesQuery;
+        const { edges: categories } = result.data.categoriesQuery;
+        // Create search file
+        fs.writeFile('./static/search-data.json', JSON.stringify(articles), err => {
           if (err) return console.log('Creating searchData.js error: ', err);
           return console.log('searchData.js creating successful');
         });
-        result.data.allMarkdownRemark.edges.forEach(edge => {
-          const id = edge.node.id;
-          if (edge.node.frontmatter.category) {
-            categorySet.add(edge.node.frontmatter.category);
-          }
-          if (Array.isArray(edge.node.frontmatter.tags) && edge.node.frontmatter.tags.length > 0) {
-            // We will not add checking if tag is already there because 'Set' stores only unique items
-            // more here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
-            edge.node.frontmatter.tags.forEach(tag => tagsSet.add(tag));
-          }
+        // Create Articles Pages
+        articles.forEach(edge => {
+          const { id, fields, frontmatter } = edge.node;
           createPage({
-            path: edge.node.frontmatter.path,
-            component: postPage,
+            path: frontmatter.path || fields.slug, // if article path inform I will use that. Otherwise generated slug from title
+            tags: frontmatter.tags,
+            component: path.resolve('./src/templates/blog-post.js'),
+            // additional data can be passed via context
             context: {
               id,
             },
           });
         });
-
-        // Create Category Pages
-        const categoryList = Array.from(categorySet);
-        const categoryWithPath = categoryList.map(category => {
-          let categoryInfo = {};
-          if (Object.prototype.hasOwnProperty.call(categoriesInfo, category)) categoryInfo = categoriesInfo[category];
-          return Object.assign(
-            {
-              name: category,
-              path: `/categories/${slug(category.toLowerCase())}/`,
+        // Create Categories Pages
+        categories.forEach(edge => {
+          const { fields, frontmatter } = edge.node;
+          createPage({
+            path: fields.slug,
+            component: path.resolve('./src/templates/category.js'),
+            // additional data can be passed via context
+            context: {
+              category: frontmatter.title,
             },
-            categoryInfo
-          );
+          });
         });
-        // 1. Page with categories list
+        // Create Category list Page - Home Page
         createPage({
           path: '/',
-          component: categoriesListPage,
-          context: {
-            categories: categoryWithPath,
-          },
+          component: path.resolve('./src/templates/categories-list.js'),
+          context: {},
         });
-        // 2. Create page for each category
-        categoryList.forEach(category =>
-          createPage({
-            path: `/categories/${slug(category.toLowerCase())}/`,
-            component: categyPage,
-            context: {
-              category,
-            },
-          })
-        );
+        // Create Tags Pages
 
-        // Create Tag Pages
-        const tagsList = Array.from(tagsSet);
-        // Create page for each tag
-        tagsList.forEach(tag =>
+        // Tag pages:
+        let tags = [];
+        // Iterate through each post, putting all found tags into `tags`
+        articles.forEach(edge => {
+          if (_.get(edge, `node.frontmatter.tags`)) {
+            tags = tags.concat(edge.node.frontmatter.tags);
+          }
+        });
+        // Eliminate duplicate tags
+        tags = _.uniq(tags);
+
+        // Make tag pages
+        tags.forEach(tag => {
+          const tagPath = `/tags/${slug(tag)}/`;
+
           createPage({
-            path: `/tags/${slug(tag)}/`,
-            component: tagPage,
+            path: tagPath,
+            component: path.resolve(`src/templates/tag.js`),
             context: {
-              tagRegex: `/${tag}/`,
               tag,
             },
-          })
-        );
+          });
+        });
       })
     );
     // [END] NEW Articles Promise

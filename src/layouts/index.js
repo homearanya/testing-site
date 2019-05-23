@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
@@ -49,10 +50,12 @@ class TemplateWrapper extends React.Component {
         />
         <Navbar fixed="top" light style={{ background: '#fff', boxShadow: '0 3px 4px rgba(0,0,0,.1)' }} expand="md">
           <div className="container">
-            <NavbarBrand href="/" className="d-flex align-items-center">
-              <div>
-                <img src={vuukleLogo} alt="Vuukle" width="80px" />
-              </div>
+            <NavbarBrand className="d-flex align-items-center">
+              <Link to="/">
+                <div>
+                  <img src={vuukleLogo} alt="Vuukle" width="80px" />
+                </div>
+              </Link>
               <span className="badge badge-primary ml-2">Help Center</span>
             </NavbarBrand>
             <NavbarToggler onClick={() => this.setState({ navbarCollapsed: !navbarCollapsed })} />
@@ -82,7 +85,7 @@ class TemplateWrapper extends React.Component {
 }
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func.isRequired,
+  children: PropTypes.object.isRequired,
 };
 
 export default TemplateWrapper;

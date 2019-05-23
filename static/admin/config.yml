@@ -10,13 +10,31 @@ collections:
   - name: articles
     label: Articles
     label_singular: Article
-    folder: 'src/content'
+    folder: 'src/content/articles'
     create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Published Date', name: 'date', widget: 'date', dateFormat: 'YYYY-MM-DD' }
-      - { label: 'Category', name: 'category', widget: 'string' }
+      - {
+          label: 'Category',
+          name: 'category',
+          widget: 'relation',
+          collection: 'categories',
+          searchFields: ['title'],
+          valueField: 'title',
+          displayFields: ['title'],
+        }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
-      - { label: 'Path', name: 'path', widget: 'string' }
+      - { label: 'Path', name: 'path', widget: 'string', required: false }
       - { label: 'Short Description', name: 'shortDescription', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: categories
+    label: Categories
+    label_singular: Category
+    folder: 'src/content/categories'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Short Description', name: 'description', widget: 'text' }
+      - { label: 'Icon', name: 'icon', widget: 'image' }
+      - { label: 'Display Order', name: 'displayOrder', widget: 'number', valueType: 'int', step: 1 }

@@ -13,7 +13,6 @@ export const articleUpdateTime = (time) => {
 
   // ==== DO JOB
   /* eslint-disable */
-  console.log('TIME', time);
   time = time.replace(/\.\d+/, ''); // remove milliseconds
   time = time.replace(/-/, '/').replace(/-/, '/');
   time = time.replace(/T/, ' ').replace(/Z/, ' UTC');
