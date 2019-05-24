@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 // Styles
-import '../../styles/index.scss';
+import './previewStyles.css';
 
 import { CategoryTemplate } from '../../templates/categories-list';
 
