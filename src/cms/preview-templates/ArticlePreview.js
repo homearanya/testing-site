@@ -30,7 +30,7 @@ export default class ArticlePreview extends Component {
     const { entry, widgetFor } = this.props;
     const data = entry.getIn(['data']).toJS();
     if (data) {
-      const formattedDate = dateformat(data.date, 'MMMM DD, YYYY');
+      const formattedDate = dateformat(data.date, 'mmm dd, yyyy');
       const lastUpdate = articleUpdateTime(formattedDate);
       return (
         <div ref={this.myRef}>
@@ -49,5 +49,3 @@ ArticlePreview.propTypes = {
   }),
   widgetFor: PropTypes.func,
 };
-
-// export default ArticlePreview;

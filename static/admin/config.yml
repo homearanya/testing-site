@@ -19,7 +19,7 @@ collections:
           name: 'path',
           widget: 'string',
           required: false,
-          hint: 'Optional. A path is automatically created out of the title. Here you can create your own. Follow this pattern: "/this-is-my-own-path/"',
+          hint: 'A path will be created out of the title. Here you can create your own. Follow this pattern: "/this-is-my-own-path/"',
         }
       - { label: 'Published Date', name: 'date', widget: 'date', dateFormat: 'YYYY-MM-DD' }
       - {

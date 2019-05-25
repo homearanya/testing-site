@@ -50,14 +50,12 @@ class TemplateWrapper extends React.Component {
         />
         <Navbar fixed="top" light style={{ background: '#fff', boxShadow: '0 3px 4px rgba(0,0,0,.1)' }} expand="md">
           <div className="container">
-            <NavbarBrand className="d-flex align-items-center">
-              <Link to="/">
+              <Link to="/" className="d-flex align-items-center">
                 <div>
                   <img src={vuukleLogo} alt="Vuukle" width="80px" />
                 </div>
               </Link>
               <span className="badge badge-primary ml-2">Help Center</span>
-            </NavbarBrand>
             <NavbarToggler onClick={() => this.setState({ navbarCollapsed: !navbarCollapsed })} />
             <Collapse isOpen={!navbarCollapsed} className="navbar-collapse">
               <Nav className="ml-auto" navbar>
