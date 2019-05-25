@@ -18,7 +18,7 @@ export const BlogPostTemplate = ({ content, contentComponent, tags, title, lastU
         <div style={{ textAlign: 'center' }}>
           <h1 style={{ fontWeight: 'bold' }}>{title}</h1>
           <span style={{ display: 'block', marginBottom: '10px' }}>
-            {tags.map(tag => (
+            {tags && tags.map(tag => (
               <Link className="article-tag" to={`/tags/${slugify(tag)}/`} key={tag}>
                 {tag}
               </Link>

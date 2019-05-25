@@ -14,6 +14,12 @@ export default class ArticlePreview extends Component {
     super(props);
     this.myRef = React.createRef();
   }
+  componentDidUpdate() {
+      if (this.myRef.current) {
+        let elem = this.myRef.current;
+        Prism.highlightAllUnder(elem);
+      }
+  }
   componentDidMount() {
     if (this.myRef.current) {
       let elem = this.myRef.current;
