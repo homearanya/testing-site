@@ -1,5 +1,5 @@
 ---
-title: What is SSO and how to enable it for Vuukle comment widget (test title)
+title: What is SSO and how to enable it for Vuukle comment widget (test title))
 path: /what-is-sso-and-how-to-enable-it-for-vuukle-comment-widget/test
 date: 2017-04-30T22:12:03.284Z
 category: FAQ
