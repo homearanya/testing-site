@@ -1,11 +1,14 @@
 ---
-title: 'What is Vuukle?'
+title: What is Vuukle?
+path: /2017-08-05-what-is-vuukle/
 date: 2017-05-01T22:12:03.284Z
-category: 'What is Vuukle'
+category: What is Vuukle
 tags:
   - general
-path: '/2017-08-05-what-is-vuukle/'
-shortDescription: 'Vuukle is world’s top custom user engagement and commenting platform for enterprise sites and blogs. Using it you can increase user engagement, increase traffic and increase website revenue.'
+shortDescription: >-
+  Vuukle is world’s top custom user engagement and commenting platform for
+  enterprise sites and blogs. Using it you can increase user engagement,
+  increase traffic and increase website revenue.
 ---
 
 Vuukle is world’s top custom user engagement and commenting platform for enterprise sites and blogs. Using it you can **increase user engagement**, **increase traffic** and **increase website revenue**.
