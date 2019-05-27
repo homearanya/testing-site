@@ -1,17 +1,19 @@
 ---
-title: 'What is SSO and how to enable it for Vuukle comment widget'
-date: 2017-05-01T22:12:03.284Z
-category: 'FAQ'
+title: What is SSO and how to enable it for Vuukle comment widget (test title)
+path: /what-is-sso-and-how-to-enable-it-for-vuukle-comment-widget/test
+date: 2017-04-30T22:12:03.284Z
+category: FAQ
 tags:
   - how to
   - SSO
-path: '/what-is-sso-and-how-to-enable-it-for-vuukle-comment-widget/'
-shortDescription: 'Single sign-on (SSO) is an authentication process that allows a user to access multiple applications with one set of login credentials.'
+  - login
+shortDescription: >-
+  Single sign-on (SSO) is an authentication process that allows a user to access
+  multiple applications with one set of login credentials. (testing description)
 ---
-
 ![sso img](/img/what-is-sso-and-how-to-enable-it-for-vuukle-comment-widget-img_2.png)
 
-**Single sign-on** (**SSO**) is an authentication process that allows a user to access multiple applications with one set of login credentials.
+**Single sign-on** (**SSO**) is an authentication process that allows a user to access multiple applications with one set of login credentials. _**(testing description)**_
 
 If your site has authorization you can use SSO with Vuukle comment widget.
 
@@ -57,7 +59,7 @@ s.src = 'https://cdn.vuukle.com/platform.js'; (d.head || d.body).appendChild(s);
    	articleId: "Generate Unique id for your article",
    comments: {
   	auth: {
-  		facebook: false,
+  		/*facebook: false,*/
   		google: false,
   		twitter: false,
   		disqus: false,
