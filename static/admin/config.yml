@@ -6,7 +6,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 site_url: https://docs-vuukle.netlify.com
-logo_url: https://docs-vuukle.netlify.com/vuukle-logo.svg
+logo_url: https://docs-vuukle.netlify.com/vuukle-logo.png
 show_preview_links: true
 
 collections:
