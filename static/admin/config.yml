@@ -5,6 +5,9 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+site_url: https://docs-vuukle.netlify.com
+logo_url: https://docs-vuukle.netlify.com/vuukle-logo.svg
+show_preview_links: true
 
 collections:
   - name: articles
@@ -22,20 +25,20 @@ collections:
           hint: 'A path will be created out of the title. Here you can create your own. Follow this pattern: "/this-is-my-own-path/"',
         }
       - { label: 'Published Date', name: 'date', widget: 'date', dateFormat: 'YYYY-MM-DD' }
-      - {
-          label: 'Category',
-          name: 'category',
-          widget: 'text',
-      }
       # - {
       #     label: 'Category',
       #     name: 'category',
-      #     widget: 'relation',
-      #     collection: 'categories',
-      #     searchFields: ['title'],
-      #     valueField: 'title',
-      #     displayFields: ['title'],
-      #   }
+      #     widget: 'text',
+      # }
+      - {
+          label: 'Category',
+          name: 'category',
+          widget: 'relation',
+          collection: 'categories',
+          searchFields: ['title'],
+          valueField: 'title',
+          displayFields: ['title'],
+        }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false, hint: 'Comma-separated tags' }
       - { label: 'Short Description', name: 'shortDescription', widget: 'text', hint: For search engines }
       - { label: 'Body', name: 'body', widget: 'markdown' }
