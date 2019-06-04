@@ -8,7 +8,6 @@ public_folder: /img
 site_url: https://docs-vuukle.netlify.com
 logo_url: https://docs-vuukle.netlify.com/vuukle-logo.svg
 show_preview_links: true
-preview_path: { { slug } }
 
 collections:
   - name: articles
@@ -16,6 +15,7 @@ collections:
     label_singular: Article
     folder: 'src/content/articles'
     create: true
+    preview_path: {{slug}}
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - {
