@@ -15,8 +15,7 @@ collections:
     label_singular: Article
     folder: 'src/content/articles'
     create: true
-    slug: {{slug}}
-    preview_path: {{slug}}
+    preview_path: "{{slug}}"
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - {
