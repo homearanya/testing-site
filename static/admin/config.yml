@@ -8,6 +8,7 @@ public_folder: /img
 site_url: https://docs-vuukle.netlify.com
 logo_url: https://docs-vuukle.netlify.com/vuukle-logo.svg
 show_preview_links: true
+preview_path: { { slug } }
 
 collections:
   - name: articles
