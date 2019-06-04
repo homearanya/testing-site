@@ -48,6 +48,7 @@ collections:
     label_singular: Category
     folder: 'src/content/categories'
     create: true
+    preview_path: "{{slug}}"
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Short Description', name: 'description', widget: 'text' }
