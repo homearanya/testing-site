@@ -1,17 +1,16 @@
 ---
 title: 'Analytics: How to export data to excel?'
+path: /analytics-how-to-export-data-to-excel/
 date: 2017-05-01T22:12:03.284Z
-category: 'FAQ'
+category: FAQ
 tags:
   - analytics
   - export data
   - to excel
-
-path: '/analytics-how-to-export-data-to-excel/'
 shortDescription: 'At any moment, you can export data in excel using Vuukle dashbouard. '
 ---
 
-At any moment, you can export data in excel using Vuukle dashbouard. You can do this for most of the tables you see in Analycs section. Just look for tree-lines icon on the right side of the header.
+At any moment, you can export data in excel using Vuukle dashboard. You can do this for most of the tables you see in Analytics section. Just look for tree-lines icon on the right side of the header.
 
 ## How to export data to excel – Screenshots
 
