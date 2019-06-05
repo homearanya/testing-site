@@ -5,7 +5,7 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-site_url: https://docs-vuukle.netlify.com
+# site_url: https://docs-vuukle.netlify.com
 logo_url: https://docs-vuukle.netlify.com/vuukle-logo.png
 show_preview_links: true
 
@@ -15,7 +15,7 @@ collections:
     label_singular: Article
     folder: 'src/content/articles'
     create: true
-    preview_path: "{{slug}}"
+    preview_path: '{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - {
@@ -26,15 +26,10 @@ collections:
           hint: 'A path will be created out of the title. Here you can create your own. Follow this pattern: "/this-is-my-own-path/"',
         }
       - { label: 'Published Date', name: 'date', widget: 'date', dateFormat: 'YYYY-MM-DD' }
-      # - {
-      #     label: 'Category',
-      #     name: 'category',
-      #     widget: 'text',
-      # }
       - {
           label: 'Category',
           name: 'category',
-          widget: 'relation',
+          widget: 'customRelation',
           collection: 'categories',
           searchFields: ['title'],
           valueField: 'title',
@@ -48,7 +43,7 @@ collections:
     label_singular: Category
     folder: 'src/content/categories'
     create: true
-    preview_path: "{{slug}}"
+    preview_path: '{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Short Description', name: 'description', widget: 'text' }
