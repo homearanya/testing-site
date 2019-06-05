@@ -2,7 +2,7 @@
 title: Testing article
 path: /teting-article/
 date: 2019-05-27T09:48:53.641Z
-category: FAQ
+category: new category
 tags:
   - test
   - login
