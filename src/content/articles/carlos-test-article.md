@@ -6,4 +6,4 @@ tags:
   - general
 shortDescription: This is a test article by Carlos
 ---
-the body of Carlos' test article
+the body of Carlos' test article.
