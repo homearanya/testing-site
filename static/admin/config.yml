@@ -19,13 +19,8 @@ collections:
     preview_path: '{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - {
-          label: 'Path',
-          name: 'path',
-          widget: 'string',
-          required: false,
-          hint: 'A path will be created out of the title. Here you can create your own. Follow this pattern: "/this-is-my-own-path/"',
-        }
+      - { label: 'Path', name: 'path', widget: 'string', hint: 'Follow this pattern: "/this-is-a-path/"' }
+      # hint: 'A path will be created out of the title. Here you can create your own. Follow this pattern: "/this-is-my-own-path/"',
       - { label: 'Published Date', name: 'date', widget: 'date', dateFormat: 'YYYY-MM-DD' }
       - {
           label: 'Category',
