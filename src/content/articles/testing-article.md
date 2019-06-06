@@ -1,6 +1,5 @@
 ---
 title: Testing article
-path: /teting-article/
 date: 2019-05-27T09:48:53.641Z
 category: new category
 tags:
@@ -9,7 +8,7 @@ tags:
 shortDescription: >-
   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
   when an unknown printer took a galley of type and scrambled it to make a type
-  specimen book.
+  specimen book
 ---
 > It has 
 >
