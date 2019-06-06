@@ -39,7 +39,7 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list', required: false, hint: 'Comma-separated tags' }
       - { label: 'Short Description', name: 'shortDescription', widget: 'text', hint: For search engines }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: '', name: 'lastUpdatedDate', widget: 'customDate', dateFormat: 'YYYY-MM-DD' }
+      # - { label: '', name: 'lastUpdatedDate', widget: 'customDate', dateFormat: 'YYYY-MM-DD' }
   - name: categories
     label: Categories
     label_singular: Category
