@@ -47,12 +47,16 @@ export default class CustomDateControl extends React.Component {
      * Set the current date as default value if no default value is provided. An
      * empty string means the value is intentionally blank.
      */
-    // Carlos - Forcing current date
     // if (!value && value !== '') {
     //   setTimeout(() => {
     //     this.handleChange(new Date());
     //   }, 0);
     // }
+
+    // Carlos - Forcing current date
+    // setTimeout(() => {
+    //   this.handleChange(new Date());
+    // }, 0);
     this.handleChange(new Date());
   }
 
@@ -101,6 +105,7 @@ export default class CustomDateControl extends React.Component {
   };
 
   render() {
+    console.log(this.props);
     const { forID, value, classNameWrapper, setActiveStyle } = this.props;
     const { format, dateFormat, timeFormat } = this.formats;
     const customStyle = {
