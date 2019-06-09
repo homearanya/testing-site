@@ -20,18 +20,25 @@ collections:
     preview_path: '{{path}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Path', name: 'path', widget: 'string', hint: 'Follow this pattern: "/this-is-a-path/"' }
+      - {
+          label: 'Path',
+          name: 'path',
+          widget: 'string',
+          pattern: ['^\/[a-z0-9]+(?:-[a-z0-9]+)*\/$', '/this-is-a-right-path/'],
+          hint: 'Follow this pattern: "/this-is-a-path/"',
+        }
       # hint: 'A path will be created out of the title. Here you can create your own. Follow this pattern: "/this-is-my-own-path/"',
       - { label: 'Published Date', name: 'date', widget: 'date', dateFormat: 'YYYY-MM-DD' }
-      - {
-          label: 'Category',
-          name: 'category',
-          widget: 'customRelation',
-          collection: 'categories',
-          searchFields: ['title'],
-          valueField: 'title',
-          displayFields: ['title'],
-        }
+      - { label: 'Category', name: 'category', widget: string }
+      # - {
+      #     label: 'Category',
+      #     name: 'category',
+      #     widget: 'customRelation',
+      #     collection: 'categories',
+      #     searchFields: ['title'],
+      #     valueField: 'title',
+      #     displayFields: ['title'],
+      #   }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false, hint: 'Comma-separated tags' }
       - { label: 'Short Description', name: 'shortDescription', widget: 'text', hint: For search engines }
       - { label: 'Body', name: 'body', widget: 'markdown' }

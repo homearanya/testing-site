@@ -51,6 +51,7 @@ export default class CustomRelationControl extends React.Component {
   };
 
   shouldComponentUpdate(nextProps) {
+    console.log('shouldComponentUpdate', this.props.value !== nextProps.value, this.props.hasActiveStyle !== nextProps.hasActiveStyle);
     return (
       // this.props.value !== nextProps.value || this.props.hasActiveStyle !== nextProps.hasActiveStyle || this.props.queryHits !== nextProps.queryHits
       this.props.value !== nextProps.value || this.props.hasActiveStyle !== nextProps.hasActiveStyle
