@@ -19,10 +19,10 @@ To find out data about commenters, go to home page of Vuukle Dashboard, select y
 ## Find out data about commenters – Step by step instructions with screenshots
 
 1. Go to home page of Vuukle Dashboard, select your site, and click on Analytics.
-   ![find out data about commenters 01](/img/analytics-how-to-find-out-data-about-commenters-img-1.jpg)
+   ![find out data about commenters 01](/img/analytics-how-to-find-out-data-about-commenters-img-1.png)
 2. Click on Analytics icon on the left and choose Comments from submenu.
-   ![find out data about commenters 02](/img/analytics-how-to-find-out-data-about-commenters-img-2.jpg)
+   ![find out data about commenters 02](/img/analytics-how-to-find-out-data-about-commenters-img-2.png)
 3. Click on GEO Analytics tab. You can view data by countries or cities.
-   ![find out data about commenters 01](/img/analytics-how-to-find-out-data-about-commenters-img-1.jpg)
+   ![find out data about commenters 01](/img/analytics-how-to-find-out-data-about-commenters-img-1.png)
 4. Click on Technology-Platform. You can view data by OS, browsers, devices.
-   ![find out data about commenters 04](/img/analytics-how-to-find-out-data-about-commenters-img-4.jpg)
+   ![find out data about commenters 04](/img/analytics-how-to-find-out-data-about-commenters-img-4.png)

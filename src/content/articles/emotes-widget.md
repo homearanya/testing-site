@@ -12,7 +12,7 @@ path: '/emotes-widget/'
 shortDescription: 'Simple steps to enable Emotes widget in your article with WordPress, javascript or blogger'
 ---
 
-![Emotes Widget](emotes-widget-/img/emotes-widget-img-1.jpg)
+![Emotes Widget](emotes-widget-/img/emotes-widget-img-1.png)
 
 ## HOW TO ENABLE
 
@@ -20,13 +20,13 @@ shortDescription: 'Simple steps to enable Emotes widget in your article with Wor
 
 In your WordPress Admin panel, go into Settings > Vuukle and choose On for Show Emote at the end of each post option
 
-![Enable Emotes in WordPress](/img/emotes-widget-Vuukle-Enable-Emotes-Wordpress.jpg)
+![Enable Emotes in WordPress](/img/emotes-widget-Vuukle-Enable-Emotes-Wordpress.png)
 
 ### For Blogger:
 
 In your Blogger dashboard, go into Layout tab, edit the Vuukle HTML/JavaScript widget and insert the shortcode `[vuukle-emote]`. Then click the Save button.
 
-![Enable Emotes in Blogger](/img/emotes-widget-Vuukle-Enable-Emotes-Blogger.jpg)
+![Enable Emotes in Blogger](/img/emotes-widget-Vuukle-Enable-Emotes-Blogger.png)
 
 ### For JavaScript:
 
@@ -54,4 +54,4 @@ disable some emotes (Emotes id's 1,2,3,4,5,6) customText: {}, },
 
 Same as the JS variable list but with User friendly settings look:
 
-![wp emote s](emotes-widget-/img/emotes-widget-img-2.jpg)
+![wp emote s](emotes-widget-/img/emotes-widget-img-2.png)

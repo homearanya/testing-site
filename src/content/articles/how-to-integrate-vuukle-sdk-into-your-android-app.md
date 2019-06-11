@@ -28,7 +28,7 @@ To setup Vuukle into your project just follow these steps:
 
 1.2) `add jitpackallprojects {repositories {jcenter()maven { url 'https://jitpack.io' }}}`
 
-![img 1](/img/how-to-integrate-vuukle-sdk-into-your-android-app-img_1.jpg)2)) Set up app build.gradle
+![img 1](/img/how-to-integrate-vuukle-sdk-into-your-android-app-img_1.png)2)) Set up app build.gradle
 
 1.1) add plugin
 `apply plugin: 'me.tatarka.retrolambda'`
@@ -39,7 +39,7 @@ dependencies `{compile 'com.github.vuukle:vuukle_android_sdk:v1.0.1'}`
 
 1.4) `set minSdkVersion: 16android {defaultConfig {...minSdkVersion 16}`
 
-![img 2](/img/how-to-integrate-vuukle-sdk-into-your-android-app-img_2.jpg)
+![img 2](/img/how-to-integrate-vuukle-sdk-into-your-android-app-img_2.png)
 
 3. Use java 1.8
 
@@ -77,7 +77,7 @@ so when library installed on your app, You should paste domain for ‘host’ pr
 – setContext(this) – put context;
 – setFragmentId(R.id.container) – Set fragment id from your .xml in which you want to put all comments
 
-![img](/img/how-to-integrate-vuukle-sdk-into-your-android-app-img_3.jpg)
+![img](/img/how-to-integrate-vuukle-sdk-into-your-android-app-img_3.png)
 
 Additional features:
 

@@ -25,14 +25,14 @@ To import comments just follow this steps:
 
 1. Go to WordPress admin page, click on Settings, and then on Vuukle.
 
-   ![enable transliteration with wp 01](/img/how-to-import-comments-wordpress-img-1.jpg)
+   ![enable transliteration with wp 01](/img/how-to-import-comments-wordpress-img-1.png)
 
 2. Click on the 'Send comment Export to Vuukle Team' button and within 48 hours we will import your comments to the Vuukle .
 
-   ![enable transliteration with wp 03](/img/how-to-import-comments-wordpress-img-3.jpg)
+   ![enable transliteration with wp 03](/img/how-to-import-comments-wordpress-img-3.png)
 
    Or click the 'Download File' button to export as a Zip-archive.
 
-   ![enable transliteration with wp 04](/img/how-to-import-comments-wordpress-img-4.jpg)
+   ![enable transliteration with wp 04](/img/how-to-import-comments-wordpress-img-4.png)
 
    ​

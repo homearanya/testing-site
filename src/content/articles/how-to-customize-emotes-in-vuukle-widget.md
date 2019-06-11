@@ -10,7 +10,7 @@ path: '/how-to-customize-emotes-in-vuukle-widget/'
 shortDescription: 'You can easily change Emotes look and feel by using your own images'
 ---
 
-![Emote screen](/img/how-to-customize-emotes-in-vuukle-widget-emote_img.jpg)
+![Emote screen](/img/how-to-customize-emotes-in-vuukle-widget-emote_img.png)
 
 To set your own set of image into Emotes widget add following code inside `VUUKLE_CONFIG`
 

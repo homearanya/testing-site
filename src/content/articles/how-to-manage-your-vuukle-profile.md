@@ -18,15 +18,15 @@ If you don’t have a password and don’t know where to get it, Click here
 
 On your profile page, you can manage all your comments, view articles where you commented before.
 
-![profile overview](/img/how-to-manage-your-vuukle-profile-img_1.jpg)
+![profile overview](/img/how-to-manage-your-vuukle-profile-img_1.png)
 
 You can remove your comments by pressing “Remove” button.
 
-![removing comments](/img/how-to-manage-your-vuukle-profile-img_2.jpg)
+![removing comments](/img/how-to-manage-your-vuukle-profile-img_2.png)
 
 In profile settings, you can change your Avatar, First Name, Last Name and Email address.
 
-![profile settings](/img/how-to-manage-your-vuukle-profile-img_3.jpg)
+![profile settings](/img/how-to-manage-your-vuukle-profile-img_3.png)
 
 All changes that you will make to your profile will automatically apply to all your comments.
 

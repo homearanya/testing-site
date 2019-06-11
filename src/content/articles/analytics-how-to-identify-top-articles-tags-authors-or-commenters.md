@@ -38,17 +38,17 @@ Clicking on Top Commenters tab, you will see which of your users is the most act
 ## Step by step instructions with screenshots – Identify top articles, tags, authors or commenters
 
 1. On Home page of Vuukle dashboard, select site where you want to monitor data, and click on Analytics.
-   ![Analytics - Identify top articles 01](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-1.jpg)
+   ![Analytics - Identify top articles 01](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-1.png)
 2. Click on Analytics icon in the menu on the left, and Overview in submenu.
-   ![Analytics - Identify top articles 02](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-2.jpg)
+   ![Analytics - Identify top articles 02](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-2.png)
 3. To see all overviews on one side, check Overview tab.
-   ![Analytics - Identify top articles 03](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-3.jpg)
+   ![Analytics - Identify top articles 03](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-3.png)
 4. Clicking on Top Articles tab, you will see your articles with most interaction.
-   ![Analytics - Identify top articles 04](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-4.jpg)
+   ![Analytics - Identify top articles 04](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-4.png)
 5. If you choose Top Authors tab, you will see which of your authors creates most visited articles.
-   ![Analytics - Identify top articles 05](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-5.jpg)
-6. Under Top Tags tab, you can see which tag is most viewed on your site.![Analytics - Identify top articles 07](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-6.jpg)
-7. Clicking on Top Commenters tab, you will see which of your users is the most active, and with which comment.![Analytics - Identify top articles 08](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-7.jpg)
+   ![Analytics - Identify top articles 05](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-5.png)
+6. Under Top Tags tab, you can see which tag is most viewed on your site.![Analytics - Identify top articles 07](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-6.png)
+7. Clicking on Top Commenters tab, you will see which of your users is the most active, and with which comment.![Analytics - Identify top articles 08](/img/analytics-how-to-identify-top-articles-tags-authors-or-commenters-img-7.png)
 
 ​
 

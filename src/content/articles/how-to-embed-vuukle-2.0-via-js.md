@@ -12,11 +12,11 @@ shortDescription: 'Vuukle 2.0 widget installation tutorial for JavaScript langua
 
 To embed Vuukle platform using JavaScript, [log into the Vuukle dashboard](https://vuukle.com/admin/index.html) and open the Integration drop-down present in the top menu. Then, proceed to click on the API Docs link
 
-![](/img/how-to-embed-vuukle-2.0-via-js-img_2.jpg)
+![](/img/how-to-embed-vuukle-2.0-via-js-img_2.png)
 
 Get your API key
 
-![Get API KEY step](/img/how-to-embed-vuukle-2.0-via-js-img_1.jpg)
+![Get API KEY step](/img/how-to-embed-vuukle-2.0-via-js-img_1.png)
 
 Copy this script to your page:
 

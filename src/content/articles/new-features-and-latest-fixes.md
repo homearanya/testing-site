@@ -18,7 +18,7 @@ Vuukle Modal improvements:
 2. Support gifs
 3. UI improvements.
 
-![support-gifs-and-images](/img/new-features-and-latest-fixes-support-gifs-and-images.jpg)
+![support-gifs-and-images](/img/new-features-and-latest-fixes-support-gifs-and-images.png)
 
 ## New feature "Add images" in the Vuukle comment widget
 
@@ -26,7 +26,7 @@ New implemented feature "Add images" gave users abilities to add their own image
 
 Images from comments display on the Dashboard, modal's windows and user's profiles pages.
 
-![images-support](/img/new-features-and-latest-fixes-images-support.jpg)
+![images-support](/img/new-features-and-latest-fixes-images-support.png)
 
 ## New feature "Add gifs via Giphy" in the Vuukle comment widget
 
@@ -34,7 +34,7 @@ New implemented feature "Add gifs" gave users abilities to make their comment an
 
 Gifs from comments display on the Dashboard, modal's windows and user's profiles pages.
 
-![gifs-support](https://i.imgur.com/iKTaIBc.jpg)
+![gifs-support](https://i.imgur.com/iKTaIBc.png)
 
 ## Vuukle PowerBar improvements
 
@@ -42,7 +42,7 @@ Gifs from comments display on the Dashboard, modal's windows and user's profiles
 2. Removed deprecated Google button from Vuukle PowerBar.
 3. A lot of UI improvements.
 
-![improvments-of-vuukle-powerbar](https://i.imgur.com/WhUr5M7.jpg)
+![improvments-of-vuukle-powerbar](https://i.imgur.com/WhUr5M7.png)
 
 ## New feature "Rich text editor" in the Vuukle comment widget from v.3.4.13
 
@@ -50,7 +50,7 @@ New implemented feature "Rich text editor" gave users abilities to format commen
 
 Formatted comments display on the Dashboard, modal's windows and user's profiles pages.
 
-![rich-text-editor](https://i.imgur.com/ph81gzX.jpg)
+![rich-text-editor](https://i.imgur.com/ph81gzX.png)
 
 ## Latest fixes
 

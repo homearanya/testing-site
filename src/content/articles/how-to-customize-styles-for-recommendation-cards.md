@@ -45,4 +45,4 @@ VUUKLE_CONFIG= {
 	},
 ```
 
-![img_1](/img/how-to-customize-styles-for-recommendation-cards-img_1.jpg)
+![img_1](/img/how-to-customize-styles-for-recommendation-cards-img_1.png)

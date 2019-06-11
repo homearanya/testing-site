@@ -30,6 +30,6 @@ There are two ways that you can install plugin on your blog:
 - Clik on Install Now button
 - On next screen, click on Activate Now
 
-![Vuukle installation step 1](/img/how-to-install-vuukle-on-a-wordpress-blog-img_1.jpg)
+![Vuukle installation step 1](/img/how-to-install-vuukle-on-a-wordpress-blog-img_1.png)
 
-![Vuukle installation step 2](/img/how-to-install-vuukle-on-a-wordpress-blog-img_2.jpg)
+![Vuukle installation step 2](/img/how-to-install-vuukle-on-a-wordpress-blog-img_2.png)

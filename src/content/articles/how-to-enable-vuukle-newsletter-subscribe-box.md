@@ -29,4 +29,4 @@ Insert this element in your code:
 2. You can also change where you want to position newsletter bar.
 3. Under Newsletter Bar Position, choose After Content Post or Before content Post.
 
-![Vuukle Newsletter Subscribe box](/img/how-to-enable-vuukle-newsletter-subscribe-box-img-1.jpg)
+![Vuukle Newsletter Subscribe box](/img/how-to-enable-vuukle-newsletter-subscribe-box-img-1.png)

@@ -21,7 +21,7 @@ To enable horizontad PowerBar, insert this line of code on your page:
 
 This is how end horizontal bar should look like:
 
-![Enable Vuukle PowerBar 1](/img/how-to-enable-vuukle-powerbar-on-my-page-img-1.jpg)
+![Enable Vuukle PowerBar 1](/img/how-to-enable-vuukle-powerbar-on-my-page-img-1.png)
 
 ## Enable Vuukle PowerBar – Vertical
 
@@ -31,4 +31,4 @@ To enable vertical PowerBar, insert this line of code on your page:
 
 This is how end vertical bar should look like:
 
-![Enable Vuukle PowerBar 2](/img/how-to-enable-vuukle-powerbar-on-my-page-img-2.jpg)
+![Enable Vuukle PowerBar 2](/img/how-to-enable-vuukle-powerbar-on-my-page-img-2.png)

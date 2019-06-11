@@ -16,10 +16,10 @@ Once you have it, go to the page where you want to install Vuukle and open **Edi
 
 Add **Code** block on the page
 
-![Edit mode](//img/how-to-install-vuukle-on-a-squarespace-site-img1.jpg)
+![Edit mode](//img/how-to-install-vuukle-on-a-squarespace-site-img1.png)
 
 Place it where you desire to show Vuukle and paste the integration code (don't forget to put HTML tag)
 
-![integration code](//img/how-to-install-vuukle-on-a-squarespace-site-img2.jpg)
+![integration code](//img/how-to-install-vuukle-on-a-squarespace-site-img2.png)
 
 Press "Apply" and all is done, enjoy :)

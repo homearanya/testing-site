@@ -20,21 +20,21 @@ You will receive an email with button you should click in order to open form to 
 
 1. Click “Forgot your password?” on Sign In screen
 
-   ![recover Vuukle login password 01](/img/how-to-recover-vuukle-login-password-img-1.jpg)
+   ![recover Vuukle login password 01](/img/how-to-recover-vuukle-login-password-img-1.png)
 
 2. Enter your e-mail address, and click Recover
 
-   ![recover Vuukle login password 02](/img/how-to-recover-vuukle-login-password-img-2.jpg)
+   ![recover Vuukle login password 02](/img/how-to-recover-vuukle-login-password-img-2.png)
 
 3. Check your e-mail and open “Reset your password message”
-   ![recover Vuukle login password 03](/img/how-to-recover-vuukle-login-password-img-3.jpg)
+   ![recover Vuukle login password 03](/img/how-to-recover-vuukle-login-password-img-3.png)
 
 4. Click on button in your e-mail message
 
-   ![recover Vuukle login password 04](/img/how-to-recover-vuukle-login-password-img-4.jpg)
+   ![recover Vuukle login password 04](/img/how-to-recover-vuukle-login-password-img-4.png)
 
-5. Enter new password, retype it, and click Change Password![recover Vuukle login password 05](/img/how-to-recover-vuukle-login-password-img-5.jpg)
+5. Enter new password, retype it, and click Change Password![recover Vuukle login password 05](/img/how-to-recover-vuukle-login-password-img-5.png)
 
 6. You will see this confirmation screen once your password is recovered
 
-   ![recover Vuukle login password 06](/img/how-to-recover-vuukle-login-password-img-6.jpg)
+   ![recover Vuukle login password 06](/img/how-to-recover-vuukle-login-password-img-6.png)

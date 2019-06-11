@@ -17,7 +17,7 @@ In order to schedule revenue reports, go to Vuukle Dashboard home page, click on
 
 1. Go to Vuukle Dashboard home page, click on site, and choose Reports from submenu
 
-   ![revenue reports 01](/img/how-to-schedule-revenue -reports-img-1.jpg)
+   ![revenue reports 01](/img/how-to-schedule-revenue -reports-img-1.png)
 
    ​
 
@@ -28,23 +28,23 @@ In order to schedule revenue reports, go to Vuukle Dashboard home page, click on
    – Period you need reports for (last 7 days, last 30 days, week to date, month to date)
    – Timezone
    After that, click Submit button.
-   ![revenue reports 02](/img/how-to-schedule-revenue -reports-img-2.jpg)
+   ![revenue reports 02](/img/how-to-schedule-revenue -reports-img-2.png)
 
    ​
 
-   ![revenue reports 03](/img/how-to-schedule-revenue -reports-img-3.jpg)
+   ![revenue reports 03](/img/how-to-schedule-revenue -reports-img-3.png)
 
    ​
 
-   ![revenue reports 04](/img/how-to-schedule-revenue -reports-img-4.jpg)
+   ![revenue reports 04](/img/how-to-schedule-revenue -reports-img-4.png)
 
    ​
 
-   ![revenue reports 05](/img/how-to-schedule-revenue -reports-img-5.jpg)
+   ![revenue reports 05](/img/how-to-schedule-revenue -reports-img-5.png)
 
 3. After that your report will be shown on the right. Click on it to update it or delete it.
-   ![revenue reports 06](/img/how-to-schedule-revenue -reports-img-6.jpg)
+   ![revenue reports 06](/img/how-to-schedule-revenue -reports-img-6.png)
 
    ​
 
-   ![revenue reports 07](/img/how-to-schedule-revenue -reports-img-7.jpg)
+   ![revenue reports 07](/img/how-to-schedule-revenue -reports-img-7.png)

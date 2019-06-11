@@ -72,5 +72,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    'gatsby-plugin-netlify-cache',
   ],
 };
