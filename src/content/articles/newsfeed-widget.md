@@ -11,7 +11,7 @@ path: '/newsfeed-widget/'
 shortDescription: 'Simple steps to enable Newsfeed widget in your article with WordPress or javascript'
 ---
 
-![Newsfeed Widget](newsfeed-widget-/img/newsfeed-widget-img-1.png)
+![Newsfeed Widget](newsfeed-widget-/img/newsfeed-widget-img-1.jpg)
 
 ## HOW TO ENABLE
 
@@ -19,7 +19,7 @@ shortDescription: 'Simple steps to enable Newsfeed widget in your article with W
 
 In your WordPress Admin panel, go to Settings > Vuukle and choose On for Show Newsfeed
 
-![Enable Newsfeed in WordPress](/img/newsfeed-widget-Vuukle-Enable-Newsfeed-Wordpress.png)
+![Enable Newsfeed in WordPress](/img/newsfeed-widget-Vuukle-Enable-Newsfeed-Wordpress.jpg)
 
 ### For JavaScript:
 

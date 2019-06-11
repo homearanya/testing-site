@@ -19,7 +19,7 @@ By creating multiple points of engagement, it helps you to increase user engagem
 
 By creating multiple points of engagement, it helps you to increase user engagement. It generates better internal linking structure and related posts customized to each visitor, and in this way, it increases traffic on your website. Also, it helps you to increase your website revenue, not only with user engagement and more traffic but also with monetizing your comments section and increasing your website CPM (Cost per thousand impressions_)_.
 
-![What is Vuukle 02](/img/2017-08-05-what-is-vuukle-img-2.png)
+![What is Vuukle 02](/img/2017-08-05-what-is-vuukle-img-2.jpg)
 
 Services we offer include:
 
@@ -50,7 +50,7 @@ Services we offer include:
 * Embeddable Comments
 * More widgets are coming soon
 
-![What is Vuukle 03](/img/2017-08-05-what-is-vuukle-m1.png)
+![What is Vuukle 03](/img/2017-08-05-what-is-vuukle-m1.jpg)
 
 - - -
 

@@ -21,14 +21,14 @@ To remove your account please follow few simple **steps**:
 1. Log in to your Vuukle profile [Here](https://vuukle.com/user)
 2. Go to **Settings**
 
-![profile settings](//img/how-to-delete-your-account-img-1.png)
+![profile settings](//img/how-to-delete-your-account-img-1.jpg)
 
 3. Press "**Delete account and data**" button
 
-![delete button image](//img/how-to-delete-your-account-img-2.png)
+![delete button image](//img/how-to-delete-your-account-img-2.jpg)
 
 4. Confirm your decision by entering your password and pressing **Delete** button
 
    ​
 
-![Delete form](//img/how-to-delete-your-account-img-3.png)
+![Delete form](//img/how-to-delete-your-account-img-3.jpg)

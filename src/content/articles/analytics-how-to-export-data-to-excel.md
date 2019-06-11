@@ -16,13 +16,13 @@ At any moment, you can export data in excel using Vuukle dashbouard. You can do 
 ## How to export data to excel – Screenshots
 
 1. Go to Vuukle home page, choose your site, and click on Analytics.
-   ![export data to excel 01](/img/analytics-how-to-export-data-to-excel-img-1.png)
+   ![export data to excel 01](/img/analytics-how-to-export-data-to-excel-img-1.jpg)
 
-2. When viewing any data under Analytics section, clicking on three-lined icon on the right side of the table header will give you options to export data to excel. See images bellow for examples. ![export data to excel 02](/img/analytics-how-to-export-data-to-excel-img-2.png)
+2. When viewing any data under Analytics section, clicking on three-lined icon on the right side of the table header will give you options to export data to excel. See images bellow for examples. ![export data to excel 02](/img/analytics-how-to-export-data-to-excel-img-2.jpg)
 
-   ![export data to excel 03](/img/analytics-how-to-export-data-to-excel-img-3.png)
+   ![export data to excel 03](/img/analytics-how-to-export-data-to-excel-img-3.jpg)
 
-   ![export data to excel 04](/img/analytics-how-to-export-data-to-excel-img-4.png)
+   ![export data to excel 04](/img/analytics-how-to-export-data-to-excel-img-4.jpg)
 
    ​
 

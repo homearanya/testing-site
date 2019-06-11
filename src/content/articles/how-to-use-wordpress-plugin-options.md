@@ -13,7 +13,7 @@ shortDescription: 'If you are using WordPress for your website there are several
 
 If you are using WordPress for your website there are several options you can enable/disable or modify using Vuukle WordPress plugin. To access Vuukle Settings in WordPress click on Settings in menu on the left, and then choose Vuukle from submenu.
 
-![WordPress plugin options 01](/img/how-to-use-wordpress-plugin-options-img-01.png)
+![WordPress plugin options 01](/img/how-to-use-wordpress-plugin-options-img-01.jpg)
 
 ## Vuukle WordPress plugin – options description
 
@@ -160,4 +160,4 @@ Turn this "off" if you want to completely hide the Vuukle widgets from the websi
 
 ## Vuukle WordPress plugin – options screenshot
 
-![WordPress plugin options 02](/img/how-to-use-wordpress-plugin-options-img-02.png)
+![WordPress plugin options 02](/img/how-to-use-wordpress-plugin-options-img-02.jpg)

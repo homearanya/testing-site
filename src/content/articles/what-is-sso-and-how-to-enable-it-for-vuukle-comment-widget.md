@@ -11,7 +11,7 @@ shortDescription: >-
   Single sign-on (SSO) is an authentication process that allows a user to access
   multiple applications with one set of login credentials. (testing description)
 ---
-![sso img](/img/what-is-sso-and-how-to-enable-it-for-vuukle-comment-widget-img_2.png)
+![sso img](/img/what-is-sso-and-how-to-enable-it-for-vuukle-comment-widget-img_2.jpg)
 
 **Single sign-on** (**SSO**) is an authentication process that allows a user to access multiple applications with one set of login credentials. _**(testing description)**_
 

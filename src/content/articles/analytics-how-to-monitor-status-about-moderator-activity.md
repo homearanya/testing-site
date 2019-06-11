@@ -16,11 +16,11 @@ Click on Analytics icon in the left menu, and choose Comments. Click on Moderato
 ## Step by step instructions with screenshots – Monitor stats about moderator activity
 
 1. Go to Home page of your Vuukle Dashboard. Click on site you want to monitor moderation activity on, and choose Analytics.
-   ![monitor stats about moderator activity 01](/img/analytics-how-to-monitor-status-about-moderator-activity-img-1.png)
+   ![monitor stats about moderator activity 01](/img/analytics-how-to-monitor-status-about-moderator-activity-img-1.jpg)
 2. Choose Analytics icon in the menu on the left, choose Comments in submenu. Click on Moderation tab.
-   ![monitor stats about moderator activity 02](/img/analytics-how-to-monitor-status-about-moderator-activity-img-2.png)
+   ![monitor stats about moderator activity 02](/img/analytics-how-to-monitor-status-about-moderator-activity-img-2.jpg)
 3. You can sort data by date and status (approved, rejected and pending).
-   ![monitor stats about moderator activity 03](/img/analytics-how-to-monitor-status-about-moderator-activity-img-3.png)
+   ![monitor stats about moderator activity 03](/img/analytics-how-to-monitor-status-about-moderator-activity-img-3.jpg)
 
 ​
 

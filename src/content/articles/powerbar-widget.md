@@ -12,7 +12,7 @@ path: '/powerbar-widget/'
 shortDescription: 'Simple steps to enable PowerBar widget in your article with WordPress, javascript or blogger'
 ---
 
-![Emotes Widget](powerbar-widget-/img/powerbar-widget-img-1.png)
+![Emotes Widget](powerbar-widget-/img/powerbar-widget-img-1.jpg)
 
 ## HOW TO ENABLE
 
@@ -20,7 +20,7 @@ shortDescription: 'Simple steps to enable PowerBar widget in your article with W
 
 In your WordPress Admin panel, go into Settings > Vuukle and choose On for Show Share Bar
 
-![Enable PowerBar in WordPress](powerbar-widget-/img/powerbar-widget-img-2.png)
+![Enable PowerBar in WordPress](powerbar-widget-/img/powerbar-widget-img-2.jpg)
 
 ### For Blogger:
 
@@ -50,12 +50,12 @@ Space from top for veritcal powerbar
 
 Wordpress Powerbar Settings:
 
-![WP PowerBar](powerbar-widget-/img/powerbar-widget-img-3.png)
+![WP PowerBar](powerbar-widget-/img/powerbar-widget-img-3.jpg)
 
 ### Change PowerBar widget type using WordPress plugin:
 
-In your WordPress Admin panel, go into Settings > Vuukle, click on the Share Bar Type settings and choose Vertical.![WP PowerBar](powerbar-widget-/img/powerbar-widget-img-4.png)
+In your WordPress Admin panel, go into Settings > Vuukle, click on the Share Bar Type settings and choose Vertical.![WP PowerBar](powerbar-widget-/img/powerbar-widget-img-4.jpg)
 
 Put CSS styles for Share Bar Styles (only for vertical type) to place the PowerBar as you like
 
-![WP PowerBar](powerbar-widget-/img/powerbar-widget-img-5.png)
+![WP PowerBar](powerbar-widget-/img/powerbar-widget-img-5.jpg)

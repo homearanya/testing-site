@@ -16,20 +16,20 @@ To add a moderator/user to your Vuukle account, go to your admin panel and selec
 
 1. Go to your admin panel dashboard and select on which site you want to add moderator
 
-   ![add moderator on Vuukle 01](/img/how-to-add-moderator-user-on-vuukle-img-1.png)
+   ![add moderator on Vuukle 01](/img/how-to-add-moderator-user-on-vuukle-img-1.jpg)
 
 2. Select Settings, and then User Management
 
-   ![add moderator on Vuukle 02](/img/how-to-add-moderator-user-on-vuukle-img-2.png)
+   ![add moderator on Vuukle 02](/img/how-to-add-moderator-user-on-vuukle-img-2.jpg)
 
 3. Enter email address of your new moderator, select which privileges he/she should have, and click Create
 
-   ![add moderator on Vuukle 03](/img/how-to-add-moderator-user-on-vuukle-img-3.png)
+   ![add moderator on Vuukle 03](/img/how-to-add-moderator-user-on-vuukle-img-3.jpg)
 
 4. In User List section you can edit privileges and password, or delete that user
 
-   ![add moderator on Vuukle 04](/img/how-to-add-moderator-user-on-vuukle-img-4.png)
+   ![add moderator on Vuukle 04](/img/how-to-add-moderator-user-on-vuukle-img-4.jpg)
 
 5. After new moderator is added, he/she will receive confirmation email with link to reset their password
 
-   ![add moderator on Vuukle 05](/img/how-to-add-moderator-user-on-vuukle-img-5.png)
+   ![add moderator on Vuukle 05](/img/how-to-add-moderator-user-on-vuukle-img-5.jpg)

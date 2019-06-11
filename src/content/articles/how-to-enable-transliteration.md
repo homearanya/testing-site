@@ -19,25 +19,25 @@ To enable transliteration just follow this few steps:
 
 1. Go to WordPress admin page, click on Settings, and then on Vuukle.
 
-   ![enable transliteration with wp 01](/img/how-to-enable-transliteration-img-1.png)
+   ![enable transliteration with wp 01](/img/how-to-enable-transliteration-img-1.jpg)
 
 2. After scroll down to the 'Language(Google Transliterate)' settings and click on languages drop-down list to choose a needed language
 
-   ![enable transliteration with wp 02](/img/how-to-enable-transliteration-img-2.png)
+   ![enable transliteration with wp 02](/img/how-to-enable-transliteration-img-2.jpg)
 
 3. Scroll to the bottom of the page and click on the Save Settings
 
-   ![enable transliteration with wp 03](/img/how-to-enable-transliteration-img-3.png)
+   ![enable transliteration with wp 03](/img/how-to-enable-transliteration-img-3.jpg)
 
    There are two ways how it would be working on article pages: The chosen language may be by default and by switching from English to chosen language.
 
    For using needed language by default just make sure that the 'Default Language' setting set to Yes.
 
-   ![enable transliteration with wp 04](/img/how-to-enable-transliteration-img-4.png)
+   ![enable transliteration with wp 04](/img/how-to-enable-transliteration-img-4.jpg)
 
    And in the case to use English with the possibility to switch to the needed language chose No for 'Default Language' setting.
 
-   ![enable transliteration with wp 05](/img/how-to-enable-transliteration-img-5.png)
+   ![enable transliteration with wp 05](/img/how-to-enable-transliteration-img-5.jpg)
 
    When all settings set right scroll to the bottom and click on Save Settings.
 
@@ -97,4 +97,4 @@ Tigrinya - ti;
 
 Urdu - ur.
 
-![enable transliteration with js 06](/img/how-to-enable-transliteration-img-6.png)
+![enable transliteration with js 06](/img/how-to-enable-transliteration-img-6.jpg)

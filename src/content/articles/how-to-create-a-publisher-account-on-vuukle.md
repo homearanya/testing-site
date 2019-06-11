@@ -21,14 +21,14 @@ After that, you will be redirected to your admin panel – [vuukle.com/admin/](h
 
 1. Visit home page, vuukle.com, and click Sign Up
 
-   ![publisher-account-01](/img/how-to-create-a-publisher-account-on-vuukle-img-1.png)
+   ![publisher-account-01](/img/how-to-create-a-publisher-account-on-vuukle-img-1.jpg)
 
 2. Click on "WANT TO INSTALL VUUKLE"
 
-   ![publisher-account-02](/img/how-to-create-a-publisher-account-on-vuukle-img-2.png)
+   ![publisher-account-02](/img/how-to-create-a-publisher-account-on-vuukle-img-2.jpg)
 
 3. Enter your site address with “http://” prefix, email address and password.
-   ![publisher-account-03](/img/how-to-create-a-publisher-account-on-vuukle-img-3.png)
+   ![publisher-account-03](/img/how-to-create-a-publisher-account-on-vuukle-img-3.jpg)
 
 4. Check your confirmation email
-   ![publisher-account-04](/img/how-to-create-a-publisher-account-on-vuukle-img-4.png)
+   ![publisher-account-04](/img/how-to-create-a-publisher-account-on-vuukle-img-4.jpg)

@@ -16,18 +16,18 @@ To block specific words when people write comments, go to your Vuukle admin pane
 ## Step by step instructions with screenshots – block specific words
 
 1. Go to your Vuukle admin panel and choose site on which you want to block specific words in comments.
-   ![block specific words 01](/img/how-to-block-specific-words-when-people-write-comments-img-1.png)
+   ![block specific words 01](/img/how-to-block-specific-words-when-people-write-comments-img-1.jpg)
 
 2. In the menu on the left, click on gear icon to select Settings. Choose Advanced Settings tab.
-   ![block specific words 02](/img/how-to-block-specific-words-when-people-write-comments-img-2.png)
+   ![block specific words 02](/img/how-to-block-specific-words-when-people-write-comments-img-2.jpg)
 
 3. Scroll down to Block Word(s) section. Enter words you want to block, separated with comma, and click Block.
-   ![block specific words 03](/img/how-to-block-specific-words-when-people-write-comments-img-3.png)
+   ![block specific words 03](/img/how-to-block-specific-words-when-people-write-comments-img-3.jpg)
 
 4. Clicking on See blocked words, you will see list of your words. You can search the list for specific word, or delete the word by clicking on "Unlock" button, on the right side of the word.
-   ![block specific words 04](/img/how-to-block-specific-words-when-people-write-comments-img-4.png)
+   ![block specific words 04](/img/how-to-block-specific-words-when-people-write-comments-img-4.jpg)
 
 5. If you choose to delete the word, click Unblock, delete it in confirmation window. After that you will be informed that selected word is deleted.
-   ![block specific words 05](/img/how-to-block-specific-words-when-people-write-comments-img-5.png)
+   ![block specific words 05](/img/how-to-block-specific-words-when-people-write-comments-img-5.jpg)
 
-   ![block specific words 06](/img/how-to-block-specific-words-when-people-write-comments-img-6.png)
+   ![block specific words 06](/img/how-to-block-specific-words-when-people-write-comments-img-6.jpg)

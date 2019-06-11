@@ -16,12 +16,12 @@ To change Vuukle login password, go to admin page and choose one of your sites. 
 ## Step by step instructions with pictures – change Vuukle login password
 
 1. Go to admin page and choose one of your sites.
-   ![change Vuukle login password 01](/img/how-to-change-vuukle-login-password-img-1.png)
+   ![change Vuukle login password 01](/img/how-to-change-vuukle-login-password-img-1.jpg)
 
 2. In the menu on the left click on Settings icon, and scroll to Password section. Enter your current password. Enter your new password, retype it and click on Change Password.
 
-   ![change Vuukle login password 02](/img/how-to-change-vuukle-login-password-img-2.png)
+   ![change Vuukle login password 02](/img/how-to-change-vuukle-login-password-img-2.jpg)
 
 3. You should see message “Your password has been changed” in the top right corner.
 
-   ![change Vuukle login password 03](/img/how-to-change-vuukle-login-password-img-3.png)
+   ![change Vuukle login password 03](/img/how-to-change-vuukle-login-password-img-3.jpg)

@@ -18,8 +18,8 @@ Choose Ivoices tab, add your files and click Upload. After that, you will see li
 ## Step by step instructions with screenshots – upload and manage invoices
 
 1. Go to home page of your Vuukle account, choose site, and click on Revenue on submenu.
-   ![upload and manage invoices 01](/img/how-to-upload-and-manage-invoices-img-1.png)
+   ![upload and manage invoices 01](/img/how-to-upload-and-manage-invoices-img-1.jpg)
 2. Choose Invoices tab, add your files and click Upload.
-   ![upload and manage invoices 02](/img/how-to-upload-and-manage-invoices-img-2.png)
+   ![upload and manage invoices 02](/img/how-to-upload-and-manage-invoices-img-2.jpg)
 3. After that, you will see list of invoices. You can sort, delete or download each of them.
-   ![upload and manage invoices 03](/img/how-to-upload-and-manage-invoices-img-3.png)
+   ![upload and manage invoices 03](/img/how-to-upload-and-manage-invoices-img-3.jpg)

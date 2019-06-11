@@ -12,7 +12,7 @@ path: '/comment-widget/'
 shortDescription: 'Simple steps to enable Comment widget in your article with WordPress, javascript or blogger and customize it as you want'
 ---
 
-![Emotes Widget](/img/comment-widget-img-1.png)
+![Emotes Widget](/img/comment-widget-img-1.jpg)
 
 ## HOW TO ENABLE
 
@@ -20,11 +20,11 @@ shortDescription: 'Simple steps to enable Comment widget in your article with Wo
 
 In your WordPress Admin panel, go into Settings > Vuukle and choose On for "Enable comments" in the "Advanced settings"
 
-![Enable Comments in WordPress](/img/comment-widget-img-3.png)
+![Enable Comments in WordPress](/img/comment-widget-img-3.jpg)
 
 OR
 
-![enable in wp settings](/img/comment-widget-img-4.png)
+![enable in wp settings](/img/comment-widget-img-4.jpg)
 
 ### For Blogger:
 
@@ -89,4 +89,4 @@ var VUUKLE_CONFIG = {
 
 Same as the JS variable list but with User friendly settings look:
 
-![wp emote s](/img/comment-widget-img-2.png)
+![wp emote s](/img/comment-widget-img-2.jpg)

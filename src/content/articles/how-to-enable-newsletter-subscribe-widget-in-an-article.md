@@ -15,7 +15,7 @@ shortDescription: 'Enable newsletter to get in touch with the users'
 In your WordPress Admin panel, go into Settings > Vuukle and choose On for
 **Show Newsletter bar ** option
 
-![WP Settings](/img/how-to-enable-newsletter-subscribe-widget-in-an-article-img_1.png)
+![WP Settings](/img/how-to-enable-newsletter-subscribe-widget-in-an-article-img_1.jpg)
 
 You can also change the position of the newsletter subscribe widget by altering the **Newsletter Bar Position** option provided by the plugin.
 
@@ -23,7 +23,7 @@ You can also change the position of the newsletter subscribe widget by altering 
 
 In your Blogger dashboard, go into Layout tab, edit the **Vuukle HTML/JavaScript** widget and insert the shortcode `[vuukle-subscribe]` .Then click the **Save** button.
 
-![Blogger Settings](/img/how-to-enable-newsletter-subscribe-widget-in-an-article-img_2.png)
+![Blogger Settings](/img/how-to-enable-newsletter-subscribe-widget-in-an-article-img_2.jpg)
 
 ### For JavaScript :
 

@@ -16,6 +16,6 @@ To change Vuukle login email, go to admin page and choose one of your sites. In 
 ## Step by step instructions with screenshots – change Vuukle login email
 
 1. Go to admin page and choose one of your sites.
-   ![change Vuukle login email 01](/img/how-to-change-vuukle-login-email-img-1.png)
+   ![change Vuukle login email 01](/img/how-to-change-vuukle-login-email-img-1.jpg)
 2. In the menu on the left click on Settings icon, and scroll to Login Email section. Enter your new email address and your current password. Click on Change Email.
-   ![change Vuukle login email 02](/img/how-to-change-vuukle-login-email-img-2.png)
+   ![change Vuukle login email 02](/img/how-to-change-vuukle-login-email-img-2.jpg)

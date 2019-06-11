@@ -21,4 +21,4 @@ You can enable Vuukle Emote in two ways:
 
 ## Screenshot – enable Vuukle Emote in WordPress
 
-![enable Vuukle Emote](/img/how-to-enable-vuukle-emote-on-my-page-post-img-1.png)
+![enable Vuukle Emote](/img/how-to-enable-vuukle-emote-on-my-page-post-img-1.jpg)

@@ -16,8 +16,8 @@ To enable comments moderation and stop auto publishing of comments, go to Vuukle
 ## Step by step instructions with screenshots – enable comments moderation
 
 1. In Vuukle admin panel, choose on which site you want to enable comments moderation
-   ![enable comments moderation 01](/img/how-to-enable-comments-moderation-and-stop-auto-publishing-img-1.png)
+   ![enable comments moderation 01](/img/how-to-enable-comments-moderation-and-stop-auto-publishing-img-1.jpg)
 2. Click on Settings, and choose General Settings
-   ![enable comments moderation 02](/img/how-to-enable-comments-moderation-and-stop-auto-publishing-img-2.png)
+   ![enable comments moderation 02](/img/how-to-enable-comments-moderation-and-stop-auto-publishing-img-2.jpg)
 3. Under Moderation section, click on switch
-   ![enable comments moderation 03](/img/how-to-enable-comments-moderation-and-stop-auto-publishing-img-3.png)
+   ![enable comments moderation 03](/img/how-to-enable-comments-moderation-and-stop-auto-publishing-img-3.jpg)
