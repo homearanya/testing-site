@@ -1,7 +1,7 @@
 ---
 title: Another Category
 description: this is another category
-icon: /img/final-logo-126x75.png
+icon: /img/v-logo-9.png
 displayOrder: 8
 ---
 
