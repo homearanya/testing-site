@@ -9,7 +9,7 @@ tags:
 shortDescription: >-
   Vuukle is world’s top custom user engagement and commenting platform for
   enterprise sites and blogs. Using it you can increase user engagement,
-  increase traffic and increase website revenue
+  increase traffic and increase website revenue.
 ---
 Vuukle is world’s top custom user engagement and commenting platform for enterprise sites and blogs. Using it you can **increase user engagement**, **increase traffic** and **increase website revenue**.
 
